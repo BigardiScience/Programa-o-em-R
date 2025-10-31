@@ -7,3 +7,4 @@ clientes[3] #Filtragem por colunas
 clientes["empresas"] #filtragem por nome de coluna
 clientes[clientes$idadeAfiliados >5, ] #filtrado como lista
 clientes$idadeAfiliados #filtrado em vetor
+clientes[clientes$idadeAfiliados >5, c("empresas", "unidades") #filtragem por condição e filtragem de resultado
